@@ -22,4 +22,5 @@ while i < 3:
     Mensagem_enviar = str(Mensagem_Modificada).encode('utf-8')                   # Convertendo a mensagem para o tipo string e encodificando ela
     novo_socket.send(bytes(Mensagem_enviar))                                     # Convertendo a mensagem para o tipo bytes e enviando para o CLIENTE
     i=i+1                                                                        # Acrescentando a contagem
+stop = input("")
 serv_socket.close()                                                              # Fecha o socket
