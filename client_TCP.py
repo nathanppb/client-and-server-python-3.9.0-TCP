@@ -17,5 +17,5 @@ while i < 3:
     Mensagem_enviar = client_socket.recv(1024)                                  # Lendo o socket do SERVIDOR e atribuindo na variavel Mensagem_enviar
     print("Mensagem recebida do servidor: ", Mensagem_enviar, "\n")             # Mostrando a mensagem modificada do SERVIDOR
     i=i+1
-
+stop = input("")
 client_socket.close()                                                           # Fecha o socket
